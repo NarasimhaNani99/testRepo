@@ -52,10 +52,44 @@ function App() {
   // let a_arr = [1,2,3,4,-5,6,7,8,9];
   // console.log(a_arr.some(item => item > 0))
 
-  const a_arr = ['asfd', 'asfd', 'asdf', 'test', 'a'];
-  // const a_arr = [32, 23, 1, 35, 235, 21, 64, 235];
-  // console.log(a_arr.sort());
-  console.log(a_arr.sort((a,b) => b-a));
+  // const a_arr = ['asfd', 'asfd', 'asdf', 'test', 'a'];
+  // // const a_arr = [32, 23, 1, 35, 235, 21, 64, 235];
+  // // console.log(a_arr.sort());
+  // console.log(a_arr.sort((a,b) => b-a));
+
+  // Destructuring
+  // const person1 = {
+  //   name: 'Suneel',
+  //   phone: '1234567890',
+  //   address: '3-3, India.',
+  //   email: 'tester@gmail.com',
+  //   country: 'India'
+  // }
+  // const { name, address, phone } = person1;
+  // console.log(name + phone + address);
+
+  // Spread Operator
+  // const person2 = {
+  //   name: 'Nani',
+  //   phone: '346436',
+  //   address: '46l4, India.',
+  //   email: 'nani@gmail.com',
+  //   country: 'India'
+  // }
+
+  // const persons = {...person2};
+  // console.log(persons);
+
+
+  // Rest parameter
+  // const add = (...numbers) => {
+  //   // console.log(numbers[0]);
+  //   const sum = numbers.reduce((acc, num) => acc + num, 0 );
+  //   console.log(sum);
+  // }
+  
+  // add(345, 345, 54);
+
 
   return (
     <div className="App">
